@@ -8,19 +8,18 @@
 .name {
   margin: 0;
 }
-
-.online {
+.status {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: green;
   margin-right: 20px;
+}
+.online {
+  composes: status;
+  background-color: green;
 }
 
 .offline {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
+  composes: status;
   background-color: red;
-  margin-right: 20px;
 }
