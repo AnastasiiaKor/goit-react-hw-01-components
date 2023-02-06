@@ -1,0 +1,26 @@
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px dotted black;
+  margin-right: 20px;
+}
+.name {
+  margin: 0;
+}
+
+.online {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: green;
+  margin-right: 20px;
+}
+
+.offline {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  margin-right: 20px;
+}
